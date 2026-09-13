@@ -1,26 +1,35 @@
 # Offensive360
 
-One platform for application security, built to run where the code lives — cloud, on-premise appliance,
-Azure image, or **fully air-gapped**: **SAST (60+ languages) · DAST · MAST · ASM · Autonomous Red Teaming ·
-AI Pentester · SCA · malware & binary analysis · license compliance · GRC**. Flat pricing, unlimited users and scans.
+Application security and risk management for development and security teams. Explore source-code analysis, web and API testing, mobile application testing, attack surface management, AI-assisted security testing and governance, risk and compliance.
 
-- 🌐 [offensive360.com](https://offensive360.com) · [Platform overview](https://offensive360.com/platform/) · [Book a demo](https://offensive360.com/demo/)
-- 🆓 **Free SAST for open source** — public GitHub/GitLab repos scan free: [free-for-open-source](https://offensive360.com/free-for-open-source/)
-- ⚙️ [`sast-scan-action`](https://github.com/offensive360/sast-scan-action) — GitHub Action with SARIF output for the code-scanning tab (GitLab CI template included)
-- 🤖 [`mcp-server`](https://github.com/offensive360/mcp-server) — Model Context Protocol server: run SAST scans and read findings from Claude, Cursor and other AI assistants
-- 🧪 [`vulnerable-sample-app`](https://github.com/offensive360/vulnerable-sample-app) — live demo of the action on deliberately vulnerable code
-- 🧰 IDE plugins: [VS Code](https://github.com/offensive360/VSCode) · [Visual Studio](https://github.com/offensive360/VisualStudio) · [IntelliJ / Android Studio](https://github.com/offensive360/AndroidStudio) · [Eclipse](https://github.com/offensive360/EclipsePlugin)
+Use the product documentation and an evaluation on your own authorized test projects to confirm language support, enabled checks, finding evidence and deployment requirements. Capabilities vary by product, analyzer, framework and release. Optional AI features have separate configuration and network requirements.
 
-### Products
-[SAST](https://offensive360.com/products/sast/) · [DAST](https://offensive360.com/products/dast/) · [MAST](https://offensive360.com/products/mast/) ·
-[Attack Surface Management](https://offensive360.com/products/asm/) · [Autonomous Red Teaming](https://offensive360.com/products/autonomous-red-teaming/) ·
-[AI Pentester](https://offensive360.com/products/ai-pentester/) · [GRC platform](https://offensive360.com/products/grc/) (early access)
+## Find the right product
 
-### Free resources
-- 🔬 [Zero-day research](https://offensive360.com/zerodays/) — original CVE write-ups
-- 📚 [Knowledge base](https://offensive360.com/knowledge-base/) · [Secure Coding Academy](https://offensive360.com/academy/)
-- 🧪 [OWASP Juice Shop DAST Benchmark Kit](https://offensive360.com/lp/juice-shop-benchmark/) — vendor-neutral scoring rubric (PDF)
-- 🛡️ [Security Headers Checker](https://offensive360.com/tools/security-headers/) — free online tool
-- 📰 [Product updates](https://offensive360.com/changelog/) · [RSS](https://offensive360.com/rss.xml) · [LinkedIn](https://www.linkedin.com/company/74126132/)
+- [SAST: source-code security](https://offensive360.com/products/sast/)
+- [DAST: web and API security testing](https://offensive360.com/products/dast/)
+- [MAST: mobile application testing](https://offensive360.com/products/mast/)
+- [Attack surface management](https://offensive360.com/products/asm/)
+- [Autonomous red teaming](https://offensive360.com/products/autonomous-red-teaming/)
+- [AI Pentester](https://offensive360.com/products/ai-pentester/)
+- [GRC platform](https://offensive360.com/products/grc/) — see the product page for availability and deployment requirements
 
-Built by security researchers in Amsterdam and Vilnius. In-house engines, no third-party scanners. ISO/IEC 27001.
+[Visit Offensive360](https://offensive360.com/) · [Request a product demo](https://offensive360.com/demo/) · [Integration options](https://offensive360.com/integrations/)
+
+## Practical resources
+
+- [Application security evaluation worksheet](https://github.com/offensive360/.github/blob/main/resources/application-security-evaluation.md): a reusable template for testing allowed and denied paths, recording evidence, comparing results and documenting untested scope.
+- [Security knowledge base](https://offensive360.com/knowledge-base/): explanations and remediation guidance for common weaknesses.
+- [Secure Coding Academy](https://offensive360.com/academy/): security learning material for developers.
+- [Security Headers Checker](https://offensive360.com/tools/security-headers/): inspect the response headers of an authorized website.
+- [SAST for public open-source projects](https://offensive360.com/free-for-open-source/): program information and application requirements.
+- [Product updates](https://offensive360.com/changelog/): release notes and changes.
+
+## Developer integrations
+
+- [`sast-scan-action`](https://github.com/offensive360/sast-scan-action): GitHub Actions integration for SAST scans and SARIF output.
+- [`mcp-server`](https://github.com/offensive360/mcp-server): an MCP integration for supported SAST operations in compatible AI clients. Read its configuration and access requirements before connecting a client.
+- [`vulnerable-sample-app`](https://github.com/offensive360/vulnerable-sample-app): deliberately vulnerable examples for an isolated, authorized test environment.
+- IDE integrations: [VS Code](https://github.com/offensive360/VSCode), [Visual Studio](https://github.com/offensive360/VisualStudio), [IntelliJ / Android Studio](https://github.com/offensive360/AndroidStudio), and [Eclipse](https://github.com/offensive360/EclipsePlugin).
+
+Published by **The Offensive360 Team**. [Company LinkedIn page](https://www.linkedin.com/company/offensive360/) · [Contact Offensive360](https://offensive360.com/contact/).
